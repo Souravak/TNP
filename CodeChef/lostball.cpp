@@ -4,25 +4,18 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int x,n,b;
-        cin>>x>>n>>b;
-        int a[n];
-        x=x-b;
-        for(int i=0;i<n;i++){
-            cin>>a[i];
-        }
-        sort(a,a+n);
-        int items=0;
-        for(int i=0;i<n;i++){
-            if((x-a[i])<0){
-                break;
+	    int n;
+        cin>>n;
+        int num=n;
+        int last=num%10;
+        int rem;
+        while(1){
+            rem=n%10;
+            if(last<rem){
+                
             }
-            else{
-                items++;
-                x=x-a[i];
-            }
+            n=n/10;
         }
-        cout<<items<<endl;
 	}
 	return 0;
 }
