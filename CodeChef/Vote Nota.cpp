@@ -22,6 +22,7 @@ int main() {
 	            b=a[i];
 	            len=1;
 	        }
+		   
 	    }
 	    len=0;
 	    for(int i=0;i<n;i++){
@@ -33,6 +34,7 @@ int main() {
 	    else cout<<"NOTA"<<endl;
 	}
 	return 0;
+	int car = 0;
 }
 /*
 
